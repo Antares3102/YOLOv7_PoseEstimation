@@ -76,7 +76,7 @@ python detect.py --weight yolov7-w6-pose.pt --kpt-label --hide-labels --hide-con
 ```
 **Note**: You can get [YOLOv7 inference code](https://github.com/WongKinYiu/yolov7/releases) and download difference **WEIGHTS**
 ```sh
-python detect.py --<WEIGHTS> --kpt-label --hide-labels --hide-conf --source <path>
+python detect.py --<WEIGHTS> --kpt-label --hide-labels --hide-conf --source <path> --nobbox
 ```
 ## Source: Object Detection (YOLOv7, YOLOv3, YOLOv4 , TensorFlow)
 - **Youtube:** [Official YOLO V7 Pose Estimate | Windows and Linux](https://www.youtube.com/watch?v=z1UN7TbcRgM)
